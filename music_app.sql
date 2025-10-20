@@ -81,8 +81,6 @@ USE music_app;
 show tables;
 
 -- Sample data for checking
--- Sample data for South Indian Music based on selected movies
-
 -- Artists
 INSERT INTO artists (name, genre, country) VALUES
 ('Harris Jayaraj', 'Film Score', 'India'),  
