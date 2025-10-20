@@ -55,8 +55,25 @@ You can find the full database schema and sample data in [music_app.sql](music_a
    |
    | creates
    v
-[Playlists] ---- contains ---- [Songs] ---- belongs to ---- [Albums] ---- created by ---- [Artists]
+[Playlists] 
+   |
+   | contains
+   v
+[Playlists_Songs] 
+   |
+   | links to
+   v
+[Songs] 
+   |
+   | belongs to
+   v
+[Albums] 
+   |
+   | created by
+   v
+[Artists]
 
+---
 
 ## Key Features
 - Proper **Primary & Foreign Keys** defining relationships  
