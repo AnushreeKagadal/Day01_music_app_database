@@ -1,11 +1,20 @@
 # Day01_music_app_database
 Database schema and ER diagram for a Music App created using MySQL Workbench
-# 🎵 Music App Database Project
+# Domain: Music App Database
 
 ## Overview
-This project was created as part of my internship task on **Database Setup and Schema Design**. It is focused on concepts like DDL,Normalization and Relationships.  
+This project was created as part of my Elevate Lab internship task on **Database Setup and Schema Design**. It is focused on concepts like DDL,Normalization and Relationships.  
 I designed a relational database model for a *music streaming application* that allows users to create playlists, browse artists, and explore songs and albums.  
 The goal was to learn how to design, normalize, and implement a structured database using **MySQL Workbench**.
+
+---
+## Tools & Technologies
+- **MySQL Workbench 8.0**  
+- **MySQL Server 8.0**  
+- **SQL (Structured Query Language)**
+- **ER Diagram design:** Created normalized tables to clearly define database relationships.  
+- **SQL Script Reverse Engineering:** Extracted SQL scripts from an existing database to understand structure.  
+- **Forward Engineering:** Generated executable SQL scripts directly from the EER diagram for implementation.
 
 ---
 
@@ -65,13 +74,6 @@ You can find the full database schema and sample data in [music_app.sql](music_a
 - Understanding of **entity relationships and normalization**  
 - Experience in using **MySQL Workbench forward engineering**  
 - Confidence in structuring data for real-world applications  
-
----
-
-## Tools & Technologies
-- **MySQL Workbench 8.0**  
-- **MySQL Server 8.0**  
-- **SQL (Structured Query Language)**  
 
 ---
 
