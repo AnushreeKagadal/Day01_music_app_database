@@ -60,15 +60,6 @@ The following diagram shows the relationships between all tables:
 | `README.md` | Documentation and explanation of the project |
 
 ---
-
-## 📂 Files Included
-| File Name | Description |
-|------------|-------------|
-| `music_app.sql` | SQL script containing schema and sample data |
-| `music_app_ERD.png` | Entity Relationship Diagram of the music app database |
-| `README.md` | Project documentation |
-
----
 ## About the Data
 Sample data includes songs from:
 - *Bangalore Days* (Malayalam)  
