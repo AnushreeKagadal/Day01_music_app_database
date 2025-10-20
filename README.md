@@ -1,5 +1,5 @@
 # Day01_music_app_database
-Database schema and ER diagram for a Music App created using MySQL Workbench
+Database schema and ER diagram for a Music App created using MySQL Workbench for Elevate Lab Internship Task
 # Domain: Music App Database
 
 ## Overview
