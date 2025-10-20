@@ -22,10 +22,12 @@ The database consists of six main entities:
 | **Playlists_Songs** | Junction table connecting playlists and songs (many-to-many relationship) |
 
 ---
-## 🔗 ER Diagram
+## ER Diagram
 The following diagram shows the relationships between all tables:
 
 ![ER Diagram](music_app_ERD.png)
+
+You can find the full database schema and sample data in [music_app.sql](music_app.sql).
 
 ---
 ## Key Features
