@@ -13,7 +13,7 @@ The goal was to learn how to design, normalize, and implement a structured datab
 - **MySQL Server 8.0**  
 - **SQL (Structured Query Language)**
 - **ER Diagram design:** Created normalized tables to clearly define database relationships.  
-- **SQL Script Reverse Engineering:** Extracted SQL scripts from an existing database to understand structure.  
+- **SQL Script Reverse Engineering:** created ER Diagram using exisiting database.  
 - **Forward Engineering:** Generated executable SQL scripts directly from the EER diagram for implementation.
 
 ---
