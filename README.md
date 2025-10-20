@@ -96,7 +96,7 @@ These examples were used to simulate a real-world music app database.
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 This project helped me understand how a well-structured database serves as the foundation for any application.  
 It was a great experience working on this schema design from scratch and seeing how all entities connect together.
 
