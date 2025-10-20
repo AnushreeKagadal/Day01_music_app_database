@@ -22,7 +22,12 @@ The database consists of six main entities:
 | **Playlists_Songs** | Junction table connecting playlists and songs (many-to-many relationship) |
 
 ---
+## 🔗 ER Diagram
+The following diagram shows the relationships between all tables:
 
+![ER Diagram](music_app_ERD.png)
+
+---
 ## Key Features
 - Proper **Primary & Foreign Keys** defining relationships  
 - **One-to-Many** relationship between `Artists → Albums` and `Albums → Songs`  
@@ -56,6 +61,14 @@ The database consists of six main entities:
 
 ---
 
+## 📂 Files Included
+| File Name | Description |
+|------------|-------------|
+| `music_app.sql` | SQL script containing schema and sample data |
+| `music_app_ERD.png` | Entity Relationship Diagram of the music app database |
+| `README.md` | Project documentation |
+
+---
 ## About the Data
 Sample data includes songs from:
 - *Bangalore Days* (Malayalam)  
