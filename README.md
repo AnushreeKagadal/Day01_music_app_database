@@ -22,6 +22,26 @@ The database consists of six main entities:
 | **Playlists_Songs** | Junction table connecting playlists and songs (many-to-many relationship) |
 
 ---
+
+## Primary and Foreign Keys
+
+- **Primary Keys**: Ensure each row in a table is unique.It uniquely identifies each record in table.
+  - Users → `user_id`
+  - Artists → `artist_id`
+  - Albums → `album_id`
+  - Songs → `song_id`
+  - Playlists → `playlist_id`
+  - Playlists_Songs → `playlist_id + songs_id` (composite key)
+
+- **Foreign Keys**: Connects two tables.
+  - Albums → `artist_id` references `artists.artist_id`
+  - Songs → `album_id` references `albums.album_id`
+  - Songs → `artist_id` references `artists.artist_id`
+  - Playlists → `user_id` references `users.user_id`
+  - Playlists_Songs → `playlist_id` references `playlists.playlist_id`
+  - Playlists_Songs → `songs_id` references `songs.song_id`
+
+---
 ## ER Diagram
 The following diagram shows the relationships between all tables:
 
