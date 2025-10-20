@@ -50,30 +50,6 @@ The following diagram shows the relationships between all tables:
 You can find the full database schema and sample data in [music_app.sql](music_app.sql).
 
 ---
-## Workflow
-[Users] 
-   |
-   | creates
-   v
-[Playlists] 
-   |
-   | contains
-   v
-[Playlists_Songs] 
-   |
-   | links to
-   v
-[Songs] 
-   |
-   | belongs to
-   v
-[Albums] 
-   |
-   | created by
-   v
-[Artists]
-
----
 
 ## Key Features
 - Proper **Primary & Foreign Keys** defining relationships  
